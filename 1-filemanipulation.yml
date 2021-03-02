@@ -1,7 +1,7 @@
 - name: playbook for file manipulation
-  hostsgh: all 
+  hosts: all 
   become: yes 
-  taskghs:
+  tasks:
   - name: hello file is copied
     copy:
       content: "hello from monday evening v2"
