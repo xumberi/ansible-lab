@@ -16,13 +16,13 @@
     file:
       path: "{{ webserver_root_dir }}"
       state: directory
-  - name: static website is deployed
-    when: today == 'awesome'
+  - name: static website is deployed dfsfs
+    when: today == 'tired'
     uri:
       url: https://raw.githubusercontent.com/sprintqaDevOps/ansible/main/playbooks/index.html
       dest: "{{ webserver_root_dir }}"
-  - name: contacts page is deployed
-    when: today == 'awesome'
+  - name: contacts page is deployed fdsfsdf
+    when: today == 'tired'
     uri:
       url: https://raw.githubusercontent.com/sprintqaDevOps/ansible/main/playbooks/contacts.html
       dest: "{{ webserver_root_dir }}"
