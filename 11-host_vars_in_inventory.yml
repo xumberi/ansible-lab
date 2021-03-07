@@ -19,7 +19,7 @@
       state: directory
   - name: print custom var
     debug:
-      msg: "{{ custom_var }}"
+      msg: "{{ today }}"
 
 
 # in the inventory file define your group specific vars
